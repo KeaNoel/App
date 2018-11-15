@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/main.css" />
+	 <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+	  <div id="div1" class="swiper-slide" >
+	  <img src="img/01.jpg"/ width="332" height="332">
+	  <ul class="mui-table-view">
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="imagesjiao.jpg">
+							<div class="mui-media-body">
+								幸福
+								<p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+							</div>
+						</a>
+					<>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/muwu.jpg">
+							<div class="mui-media-body">
+								木屋
+								<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+							</div>
+						</a>
+					<>
+					<li class="mui-table-view-cell mui-media">
+						<a href="javascript:;">
+							<img class="mui-media-object mui-pull-left" src="images/cbd.jpg">
+							<div class="mui-media-body">
+								CBD
+								<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+							</div>
+						</a>
+					<>
+	
+				</ul>
+
+	 </div>
+	  
+	  <div id="div1" class="swiper-slide" >
+	  <img src="img/02.jpg"/ width="332" height="332">
+	  </div>
+	  
+	  <div id="div1" class="swiper-slide" >
+	  <img src="img/03.jpg"/ width="332" height="332">
+	  </div>
+	  
+      <div class="swiper-slide">
+		 <img src="img/04.jpg"/ width="332" height="332">
+	  </div>
+	  
+      <div class="swiper-slide">
+		 <img src="img/05.jpg"/ width="332" height="332">
+	  </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  
+ 
+  <script src="js/min.js"></script>
+	
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+    });
+  </script>
+</body>
+</html>
